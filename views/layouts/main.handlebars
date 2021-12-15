@@ -15,6 +15,7 @@
             integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="../css/bulma-divider.css"/>
         <link rel="stylesheet" href="../css/style.css" />
         <script src="../js/config/apiConfig.js"></script>
     </head>
@@ -24,61 +25,45 @@
             <div class="container">
                 <div class="navbar-brand">
                     <a class="navbar-item" href="/">
-                        <img
-                            class="main-logo"
-                            src="../images/logo.jpg"
-                            alt="Logo"
-                        />
-                    </a>
+                        <img class="main-logo" src="../images/logo.jpg" alt="Logo" />COOL-TECH-BLOG-SITE</a>
                     <span class="navbar-burger burger" data-target="navbarMenu">
                         <span></span>
                         <span></span>
                         <span></span>
-                    </span>
+                   </span>
                 </div>
                 <div id="navbarMenu" class="navbar-menu">
                     <div class="navbar-end">
-                        <a
-                            class="navbar-item is-active is-size-5 has-text-weight-semibold"
+                        <a class="navbar-item is-active is-size-5 has-text-weight-semibold"
                             href="/">
                             Home
                         </a>
                         {{#if loggedIn}}
                 
-                                <a class="navbar-item is-size-5 has-text-weight-semibold"
+                            <a class="navbar-item is-size-5 has-text-weight-semibold"
                                     href="/dashboard">
-                                    Dashboard
-                                </a>
-                            {{/if}}
+                                    Dashboard</a>
+
                             <a class="navbar-item is-size-5 has-text-weight-semibold"
-                                href="/logout/">
-                                Logout
-                            </a>
-                        {{else}}
+                                href="/logout/">Logout</a>
+                           {{else}}
                             <a class="navbar-item is-size-5 has-text-weight-semibold"
-                                href="/login/">
-                                Login
-                            </a>
-                            <a
-                                class="navbar-item is-size-5 has-text-weight-semibold"
-                                href="/signup/"
-                            >
-                                Signup
-                            </a>
+                                href="/login/">Login</a>
+                            <a class="navbar-item is-size-5 has-text-weight-semibold"
+                                href="/signup/">Signup</a>
                         {{/if}}
                     </div>
                 </div>
             </div>
         </nav>
         <!-- END NAV -->
+        <!--body-->
         {{{body}}}
         <footer class="footer">
             <div class="content has-text-centered">
-                <p>
-                    <strong>MVC-TECH-BLOG SITE</strong>
-                    -
-                    <a
-                        href="https://github.com/ALMA-DEV914/MVC-TECH-BLOG"
+                <p> <strong>MVC-TECH-BLOG SITE</strong>
+                -
+                      <a href="https://github.com/ALMA-DEV914/MVC-TECH-BLOG"
                         target="_blank">Open Source</a>
                     -Node packages, MySQL2, Sequelize, Express.js, Bootstrap, Bulma
                 </p>

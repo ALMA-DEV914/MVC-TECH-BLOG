@@ -1,10 +1,12 @@
+
 nav.navbar {
     height: 6rem !important;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+    
 }
 
-.navbar-item img {
-    max-height: 75%;
+.navbar-item img{
+    max-height: 100%;
 }
 
 .hug {
@@ -28,7 +30,7 @@ nav.navbar {
 }
 
 .hero-body-neg {
-    margin-top: -3em;
+    margin-top: -5em;
 }
 
 .delete-comment {
