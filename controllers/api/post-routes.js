@@ -3,7 +3,7 @@ const { Post } = require("../../models");
 
 //create post endpoints
 router.post("/", async (req, res) => {
-    console.log('======================');
+
     try {
         const dbPostData = await Post.create({
             title: req.body.title,
