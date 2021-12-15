@@ -3,7 +3,7 @@
         "username": "Alma Braun",
         "email": "almita_39@gmail.com",
         "password": "password1",
-        "isAdmin": "false"
+        "isAdmin": "true"
     },
     {
         "username": "Jennylyn Ibatuan",
@@ -15,6 +15,6 @@
         "username": "Peter Braun",
         "email": "peter_123@gmail.com",
         "password": "password3",
-        "isAdmin": "true"
+        "isAdmin": "false"
     }
 ]
