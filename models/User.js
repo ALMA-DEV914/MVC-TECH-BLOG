@@ -50,9 +50,10 @@ User.init(
         },
     },
         {
-        // called the life cycle events before and after calls in sequelize are executed.
+        
         hooks: {
             //beforeCreate hook is used to work with data before a new instance is created
+            // set up beforeCreate lifecycle "hook" functionality
             async beforeCreate(newUserData) {
                 //encrypt password user passed in
                 newUserData.password = await bcrypt.hash(
