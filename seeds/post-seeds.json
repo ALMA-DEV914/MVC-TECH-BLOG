@@ -1,0 +1,27 @@
+[
+    {
+        "title": "What is Blog",
+        "content": "First, let's go over a brief history -- in 1994, Swarthmore College student Justin Hall is credited with the creation of the first blog, Links.net. At the time, however, it wasn't considered a blog … just a personal homepage.In 1997, Jorn Barger, blogger for Robot Wisdom, coined the term 'weblog', which was meant to describe his process for 'logging the web' as he surfed the internet. The term 'weblog' was shortened to 'blog' in 1999, by programmer Peter Merholz.",
+        "author_id": "1"
+    },
+    {
+        "title": "Why do we build it?",
+        "content": "To help your company rank on search engines.To share information about a given topic and become an expert in an industry.To attract visitors to your site, and turn those visitors into leads.To cultivate an online community and engage with an audience.",
+        "author_id": "2"
+    },
+    {
+        "title": "What is one of good practice in building blog?",
+        "content": "When you're writing your blog posts, it's important to consider the article structure. For instance, are you using subheads to break up the post so it's easy to digest? Are you using bullet points and images that make the post easy to scan? These are important factors that will help keep your reader on the page.",
+        "author_id": "1"
+    },
+    {
+        "title": "What are samples of blog topics?",
+        "content": "How-To Guides, Experiences And Stories, Trending Topics And News, Lists And Round-Ups-A round-up post is a list that you put together of other resources (i.e. recipes, websites, products, etc.). You feature other people’s content with a link to the resource, Product reviews, Interviews And Testimonials-Interviews and testimonial posts are great because it gives your audience a chance to hear from someone else, which can further add credibility to what you are teaching.",
+        "author_id": "2"
+    },
+    {
+        "title": "The Tech blog Spot",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        "author_id": "1"
+    }
+]
