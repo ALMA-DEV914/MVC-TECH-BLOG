@@ -37,7 +37,7 @@ router.post("/login", async (req, res) => {
             return;
         }
         //checks that password is valid using custom instance method in ./models/user.js
-        const validPassword = await dbUserData.checkPassword(req.body.password);
+        const validPassword = dbUserData.checkPassword(req.body.password);
 
         if (!validPassword) {
             res.status(400).json({

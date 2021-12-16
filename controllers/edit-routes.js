@@ -2,7 +2,7 @@ const router = require("express").Router();
 const { Post } = require("../models");
 const withAuth = require("../utils/auth");
 
-//on /edit/{id} page load
+//edit post by id 
 router.get("/:id", withAuth, async (req, res) => {
     try {
         const postData = await Post.findByPk(req.params.id);

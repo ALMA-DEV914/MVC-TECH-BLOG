@@ -16,8 +16,8 @@ router.get("/:id", async (req, res) => {
                     //join of joined data
                     include: [
                         {
-                            model: User,
-                            attributes: ["id", "username"],
+                    model: User,
+                     attributes: ["id", "username"],
                         },
                     ],
                 },

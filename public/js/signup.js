@@ -8,7 +8,7 @@ const signupFormHandler = async (event) => {
     //new accounts by default are not admins
     const is_admin = false;
     //inform user if password is to short
-    if (password.length < 6) {
+    if (password.length < 8) {
         alert("The minimum password length is 8 characters.");
     } else if (username && email && password) {
         const response = await fetch("/api/user", {
