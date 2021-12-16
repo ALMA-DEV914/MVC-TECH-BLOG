@@ -62,8 +62,7 @@ User.init(
                 //encrypt password user passed in
                 newUserData.password = await bcrypt.hash(
                     newUserData.password,
-                    10
-                );
+                    10);
                 //return the new user data
                 return newUserData;
             },

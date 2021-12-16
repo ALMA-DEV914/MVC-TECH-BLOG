@@ -24,7 +24,7 @@
 .is-divider-vertical {
     display: block;
     position: relative;
-    border-top: .1rem solid #dbdbdb;
+    border-top: .2rem solid #6e6c6c;
     height: .1rem;
     margin: 2rem 0;
     text-align: center
