@@ -13,7 +13,9 @@ nav.navbar {
     max-height: 100%;
     
 }
-
+#fonts {
+    font-size: 22px;
+}
 .hug {
     margin-top: -3em;
     

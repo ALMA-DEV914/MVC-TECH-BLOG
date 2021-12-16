@@ -2,19 +2,19 @@
     {
         "username": "Alma Braun",
         "email": "almita_39@gmail.com",
-        "password": "password1",
-        "isAdmin": "true"
+        "password": "password1"
+        
     },
     {
         "username": "Jennylyn Ibatuan",
         "email": "jen_at@gmail.com",
-        "password": "password2",
-        "isAdmin": "false"
+        "password": "password2"
+        
     },
     {
         "username": "Peter Braun",
         "email": "peter_123@gmail.com",
-        "password": "password3",
-        "isAdmin": "false"
+        "password": "password3"
+        
     }
 ]

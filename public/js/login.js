@@ -13,19 +13,11 @@ const loginFormHandler = async (event) => {
 
         if (response.ok) {
             document.location.replace("/");
-        } else {
-            alert(
-                "Failed to login. " +
-                    response.status +
-                    ": " +
-                    response.statusText
-            );
-        }
     } else {
         alert("Please fill out all fields.");
     }
+ }
 };
-
 //add event listeners
 document
     .querySelector(".is-success")
