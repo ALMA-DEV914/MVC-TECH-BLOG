@@ -31,11 +31,10 @@
                     <div class="navbar-end">
                         <a class="navbar-item is-active is-size-5 has-text-weight-semibold"
                             href="/">Home</a>
-                        {{#if loggedIn}}
-                            <a class="navbar-item is-size-5 has-text-weight-semibold"
+                        <a class="navbar-item is-size-5 has-text-weight-semibold"
                                     href="/dashboard/">
                                     Dashboard</a>
-                             
+                        {{#if loggedIn}}
                             <a class="navbar-item is-size-5 has-text-weight-semibold"
                                 href="/logout/">Logout</a>
                            {{else}}
