@@ -40,7 +40,7 @@ const deleteCommentHandler = async (event) => {
     const deleteCommentId = event.target.getAttribute("data-id");
     const currentPostId = document.querySelector(".current-post-id").innerHTML;
     console.log(2);
-    //next add delete logical
+    //next add delete logic
     if (deleteCommentId) {
         const response = await fetch("/api/comment/" + deleteCommentId, {
             method: "DELETE",
@@ -60,7 +60,6 @@ const deleteCommentHandler = async (event) => {
             );
         }
     }
-    //then add logic to hide this for (non) admins and current user
 };
 
 //add event listeners
