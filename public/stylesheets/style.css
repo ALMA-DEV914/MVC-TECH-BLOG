@@ -1,14 +1,22 @@
-
+.section{
+    background: black;
+    opacity: 0.8;
+}
+.hero{
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/10/hi-tech-windows-05.jpg);
+}
 nav.navbar {
     height: 6rem !important;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
     
 }
+
 #title{
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
 }
+
 .navbar-item img{
     max-height: 100%;
     
@@ -52,5 +60,11 @@ nav.navbar {
 @media only screen and (max-width: 1025px) {
     .navbar-item img {
         max-height: 3em;
+    }
+}
+@media screen and (max-width:575px) {
+    #title{
+        font-size: 25px;
+        color: rgb(10, 88, 81);
     }
 }

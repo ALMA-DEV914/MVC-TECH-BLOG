@@ -6,7 +6,7 @@ module.exports = {
         if(!date){
             return "date-unknown";
         }
-        return date.toLocaleDateString('en-Us', {
+        return date.toLocaleDateString('en-US',{
             year: "numeric",
             month: "long",
             day: "numeric",
@@ -16,8 +16,8 @@ module.exports = {
     },
     //cuts the length of blog content down for front page/index
     format_summary: (content) => {
-        if (content.length > 300) {
-            return content.substring(0, 400) + "...";
+        if (content.length > 200) {
+            return content.substring(0, 200) + "...";
         } else {
             return content;
         }

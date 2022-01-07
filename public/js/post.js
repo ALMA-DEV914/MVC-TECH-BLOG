@@ -37,7 +37,7 @@ const submitCommentHandler = async (event) => {
 const deleteCommentHandler = async (event) => {
     event.preventDefault();
 
-    const deleteCommentId = event.target.getAttribute("data-id");
+const deleteCommentId = event.target.getAttribute("data-id");
     const currentPostId = document.querySelector(".current-post-id").innerHTML;
     console.log(2);
     //next add delete logic

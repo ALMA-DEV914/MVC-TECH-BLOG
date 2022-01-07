@@ -13,15 +13,15 @@
           <div class="columns">
             <div class="column is-8 is-offset-2">
               <div class="content is-medium">
-                <h2 class="subtitle is-4">{{format_time posts.0.0.createdAt}}</h2>
-                <h1 class="title"><a href="/post/{{posts.0.0.id}}">{{posts.0.0.title}}</a></h1>
-                <h6>by {{posts.0.0.user.username}}</h6>
-                <p>{{posts.0.0.content}}</p>
+                <h2 class="subtitle is-4 has-text-white">{{format_time posts.0.0.createdAt}}</h2>
+                <h1 class="title has-text-white"><a href="/post/{{posts.0.0.id}}">{{posts.0.0.title}}</a></h1>
+                <h6 class="has-text-white">by {{posts.0.0.user.username}}</h6>
+                <p class="has-text-white">{{posts.0.0.content}}</p>
               </div>
             </div>
           </div>
         </section>
-        <div class="is-divider"></div>
+        <div class="is-divider">This application will allow you to create post related to technology topics. You can also add comments on each post. You cannot access the the website features unless you'd sign-up or logged-in.</div>
       </div>
     </div>
   </section>
@@ -33,7 +33,7 @@
           {{#if @first}}
             <!-- Don't post 1st one because it goes up top -->
           {{else}}
-            {{> post-summary}}
+           {{> post-summary}}
           {{/if}}
         {{/each}}
       </div>
