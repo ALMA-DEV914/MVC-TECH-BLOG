@@ -1,13 +1,12 @@
-.section{
-    background: black;
-    opacity: 0.8;
-}
+
 .hero{
-    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/10/hi-tech-windows-05.jpg);
+    background-image:url(https://th.bing.com/th/id/R.bf1a6eefef9d14a2c22bdb78ddaa6fe1?rik=dLDI7RjB8Au9ig&riu=http%3a%2f%2fwww.pptbackgrounds.org%2fuploads%2fblue-technology-powerpoint-templates.jpg&ehk=4RVskknYq2dr0iLHgVSHLDvxikoKqKoH5loIpY4U02Q%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 nav.navbar {
     height: 6rem !important;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+    box-shadow: 0 1px 3px 0 rgba(240, 208, 69, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
     
 }
 
