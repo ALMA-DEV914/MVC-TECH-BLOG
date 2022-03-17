@@ -16,6 +16,11 @@ My challenge this week is to build a CMS-style blog site similar to a Wordpress 
 * Bulma,  CSS
 * Javascript
 * Heroku, JAWSMySQLDB
+ 
+ ## Usage
+ 
+      Git clone the repository. Then run npm install to download the dependencies.
+      Then on the command line run *npm start*, and navigate to localhost:3001 where you can view the app.
 
 ## FUNCTIONALITY
 
